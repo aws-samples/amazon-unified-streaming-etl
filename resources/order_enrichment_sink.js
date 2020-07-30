@@ -16,7 +16,7 @@ exports.main = async (event) => {
         
         
         var db_params = {
-        TableName:"OrderEnriched",
+        TableName:"UnifiedOrderEnriched",
             Item:{
                 "orderId": jto.orderId,
                 "itemId": jto.itemId,
