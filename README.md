@@ -21,7 +21,7 @@ Unified Streaming ETL architecture that bring on-prem data realtime, correlates 
 1.	Setup AWS CDK for Java on your local workstation using instructions from here
 2.	Install Maven binaries for Java if you do not have maven installed already.
 3.	If this is the first installation of CDK, make sure to run cdk bootstrap.
-4.	Clone this repo: https://github.com/rvvittal/amazon-unified-streaming-etl
+4.	Clone this repo: https://github.com/aws-samples/amazon-unified-streaming-etl
 5.	Navigate to project root folder and run the following commands to build and deploy:
 6.	mvn compile  
 7.	cdk deploy UnifiedStreamETLCommonStack UnifiedStreamETLDataStack UnifiedStreamETLProcessStack  
